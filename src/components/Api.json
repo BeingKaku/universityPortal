@@ -1,0 +1,358 @@
+{
+  "info": {
+    "_postman_id": "d6930b9e-c28e-41cb-8e61-ad1bc6cf9bfc",
+    "name": "stud_mgtm",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "login",
+      "id": "81db49cb-55a6-4e64-b6ce-49ba7b4bb1b4",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0NCwiaWF0IjoxNjMzNjk0MjY1fQ.VuQahD7y8uJ-6m1JaFnPEUu-FVq0H390wTfwM3SBBgE",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "rama@gmail.com",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "Abc@123",
+              "type": "text"
+            },
+            {
+              "key": "userType",
+              "value": "student",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "http://192.168.1.20:3000/home/login",
+        "description": "This is login"
+      },
+      "response": []
+    },
+    {
+      "name": "addTeacher",
+      "id": "7d027ebf-eef3-4ce4-ba13-a4588a4a25d4",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "type": "file",
+              "src": "/C:/Users/Aditya/Pictures/hero.png"
+            },
+            {
+              "key": "name",
+              "value": "Ravi ",
+              "type": "text"
+            },
+            {
+              "key": "mobile",
+              "value": "988998989",
+              "type": "text"
+            },
+            {
+              "key": "age",
+              "value": "43",
+              "type": "text"
+            },
+            {
+              "key": "qualification",
+              "value": "btech",
+              "type": "text"
+            },
+            {
+              "key": "exp",
+              "value": "2",
+              "type": "text"
+            },
+            {
+              "key": "address",
+              "value": "Noida ",
+              "type": "text"
+            },
+            {
+              "key": "state",
+              "value": "UP",
+              "type": "text"
+            },
+            {
+              "key": "pin",
+              "value": "234567",
+              "type": "text"
+            },
+            {
+              "key": "email",
+              "value": "bullboy@gmail.com",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "Abc@123",
+              "type": "text"
+            },
+            {
+              "key": "city",
+              "value": "delhi",
+              "type": "text"
+            },
+            {
+              "key": "empId",
+              "value": "123",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "http://localhost:3000/teacher/addTeacher"
+      },
+      "response": []
+    },
+    {
+      "name": "addStudent",
+      "id": "3e3c39db-8486-49e2-a7e9-6b142a2fc816",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "email",
+              "value": "rama@gmail.com",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "Abc@123",
+              "type": "text"
+            },
+            {
+              "key": "name",
+              "value": "Shyam",
+              "type": "text"
+            },
+            {
+              "key": "roll",
+              "value": "12345678",
+              "type": "text"
+            },
+            {
+              "key": "age",
+              "value": "14",
+              "type": "text"
+            },
+            {
+              "key": "course",
+              "value": "BA",
+              "type": "text"
+            },
+            {
+              "key": "batch",
+              "value": "Science",
+              "type": "text"
+            },
+            {
+              "key": "mobile",
+              "value": "00000000",
+              "type": "text"
+            },
+            {
+              "key": "father_name",
+              "value": "Dashratha",
+              "type": "text"
+            },
+            {
+              "key": "father_mobile",
+              "value": "22222222",
+              "type": "text"
+            },
+            {
+              "key": "address",
+              "value": "Sector -52",
+              "type": "text"
+            },
+            {
+              "key": "city",
+              "value": "Noida",
+              "type": "text"
+            },
+            {
+              "key": "state",
+              "value": "UP",
+              "type": "text"
+            },
+            {
+              "key": "pin",
+              "value": "201201",
+              "type": "text"
+            },
+            {
+              "key": "image",
+              "type": "file",
+              "src": "/C:/Users/Aditya/Pictures/test.png"
+            },
+            {
+              "key": "t_id",
+              "value": "23",
+              "description": "teacher (u_id)",
+              "type": "text"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        },
+        "url": "http://localhost:3000/student/addStudent"
+      },
+      "response": []
+    },
+    {
+      "name": "listTeacher",
+      "id": "45a871dc-ddb4-42f6-869d-708b5a91abe8",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "url": "http://localhost:3000/teacher/listTeacher"
+      },
+      "response": []
+    },
+    {
+      "name": "listStudent",
+      "id": "d9f4171d-3636-4939-81eb-fd34375bec6c",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "url": "http://localhost:3000/student/listStudent"
+      },
+      "response": []
+    },
+    {
+      "name": "delTeacher",
+      "id": "f174cd3d-d9e8-4307-b3d7-6d593b21bd9c",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "url": "http://localhost:3000/teacher/delTeacher/2"
+      },
+      "response": []
+    },
+    {
+      "name": "delStudent",
+      "id": "cc2293e4-2344-4c78-a847-1f8403fe4103",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "url": "http://localhost:3000/student/delStudent/21"
+      },
+      "response": []
+    },
+    {
+      "name": "updateTeacher",
+      "id": "427633a1-d00b-49e7-b186-96b90e2ec714",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "url": "http://localhost:3000/teacher/updateTeacher"
+      },
+      "response": []
+    },
+    {
+      "name": "updateStudent",
+      "id": "fc3ed403-b538-46d3-8b2d-24d38942b340",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQHBwLmNvbSIsImlkIjoxLCJpYXQiOjE2MzQyMTExNTJ9.izOXPyt8F3ET4wlDbBt5TpYANxFTJwtvJgBydxlz8w4",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "name",
+              "value": "Pankaj",
+              "type": "text"
+            },
+            {
+              "key": "age",
+              "value": "22",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "http://localhost:3000/student/updateStudent/116"
+      },
+      "response": []
+    }
+  ]
+}

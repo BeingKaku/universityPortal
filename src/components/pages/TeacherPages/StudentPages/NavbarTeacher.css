@@ -1,0 +1,40 @@
+.TeacherNav {
+    background: linear-gradient(120deg, rgba(26, 245, 7, 0.918), rgb(251, 255, 0), white);
+}
+
+
+.Teacherlogo {
+    background-image: url(../../../assets/professional.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.TeacherHomepage {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* .Body {
+    margin: 100%;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+
+/* .Container {
+    position: absolute;
+    transform: translate(-50% -50% ); 
+    width: 500px;
+     height: 500px;
+} */
+
+/* .Teacherlogo {
+    position: absolute;
+} */ 

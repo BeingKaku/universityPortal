@@ -1,0 +1,22 @@
+.uploadImage {
+    width: 100px;
+    height: 100px;
+    /* background-image: url(); */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.uploadImage input[type="file"] {
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    position: absolute;
+    /* right: 10px; */
+    z-index: 9;
+}
+
+.uploadImage img {
+    height: 100%;
+    width: 100%;
+}

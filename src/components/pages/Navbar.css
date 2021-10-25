@@ -1,0 +1,69 @@
+.AdminHomeBack {
+  background: url(../assets/Harvardlogo.jpg) no-repeat center;
+  height: 50em;
+  background-size: 50%;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.right ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 15px 0px 5px;
+  align-items: center;
+  background: linear-gradient(200deg, WHITE, rgb(97, 97, 97));
+  /* background: linear-gradient(200deg, rgb(165, 240, 28), rgb(9, 202, 138)); */
+
+}
+
+.right {
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 15%;
+}
+
+.logo {
+  background-image: url(../assets/Logo1.jpeg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top: 70px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+.LogoutButton a {
+  color: blue;
+}
+
+.AdminHomepage {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+.CameraIcon {
+  margin-left: 78px;
+}
